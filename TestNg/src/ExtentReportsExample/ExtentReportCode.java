@@ -96,6 +96,7 @@ public class ExtentReportCode {
 
 	@AfterSuite
 	public void closeBrowser() {
+		testCase..info("Closing the Browser");
 		driver.close();
 		extentReports.flush();
 	}
