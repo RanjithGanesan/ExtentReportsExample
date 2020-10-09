@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+      <class name="ExtentReportsExample.ExtentReportCode">
+        <test-method status="FAIL" signature="lanunchBrowser()[pri:0, instance:ExtentReportsExample.ExtentReportCode@6a2bcfcb]" name="lanunchBrowser" is-config="true" duration-ms="79" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/reactivex/rxjava3/subjects/PublishSubject]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/reactivex/rxjava3/subjects/PublishSubject
+at com.aventstack.extentreports.ReactiveSubject.<init>(ReactiveSubject.java:28)
+at com.aventstack.extentreports.AbstractProcessor.<init>(AbstractProcessor.java:22)
+at com.aventstack.extentreports.ExtentReports.<init>(ExtentReports.java:57)
+at ExtentReportsExample.ExtentReportCode.lanunchBrowser(ExtentReportCode.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.reactivex.rxjava3.subjects.PublishSubject
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanunchBrowser -->
+        <test-method status="SKIP" signature="openBing()[pri:0, instance:ExtentReportsExample.ExtentReportCode@6a2bcfcb]" name="openBing" duration-ms="0" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/reactivex/rxjava3/subjects/PublishSubject]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/reactivex/rxjava3/subjects/PublishSubject
+at com.aventstack.extentreports.ReactiveSubject.<init>(ReactiveSubject.java:28)
+at com.aventstack.extentreports.AbstractProcessor.<init>(AbstractProcessor.java:22)
+at com.aventstack.extentreports.ExtentReports.<init>(ExtentReports.java:57)
+at ExtentReportsExample.ExtentReportCode.lanunchBrowser(ExtentReportCode.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.reactivex.rxjava3.subjects.PublishSubject
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBing -->
+        <test-method status="SKIP" signature="openGoogle()[pri:0, instance:ExtentReportsExample.ExtentReportCode@6a2bcfcb]" name="openGoogle" duration-ms="0" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/reactivex/rxjava3/subjects/PublishSubject]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/reactivex/rxjava3/subjects/PublishSubject
+at com.aventstack.extentreports.ReactiveSubject.<init>(ReactiveSubject.java:28)
+at com.aventstack.extentreports.AbstractProcessor.<init>(AbstractProcessor.java:22)
+at com.aventstack.extentreports.ExtentReports.<init>(ExtentReports.java:57)
+at ExtentReportsExample.ExtentReportCode.lanunchBrowser(ExtentReportCode.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.reactivex.rxjava3.subjects.PublishSubject
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="SKIP" signature="openWikipedia()[pri:0, instance:ExtentReportsExample.ExtentReportCode@6a2bcfcb]" name="openWikipedia" duration-ms="0" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/reactivex/rxjava3/subjects/PublishSubject]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/reactivex/rxjava3/subjects/PublishSubject
+at com.aventstack.extentreports.ReactiveSubject.<init>(ReactiveSubject.java:28)
+at com.aventstack.extentreports.AbstractProcessor.<init>(AbstractProcessor.java:22)
+at com.aventstack.extentreports.ExtentReports.<init>(ExtentReports.java:57)
+at ExtentReportsExample.ExtentReportCode.lanunchBrowser(ExtentReportCode.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.reactivex.rxjava3.subjects.PublishSubject
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWikipedia -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:ExtentReportsExample.ExtentReportCode@6a2bcfcb]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-10-08T14:35:32Z" finished-at="2020-10-08T14:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ExtentReportsExample.ExtentReportCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
